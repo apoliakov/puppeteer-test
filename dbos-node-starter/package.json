@@ -1,0 +1,29 @@
+{
+  "name": "dbos-node-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@dbos-inc/dbos-cloud": "^2.10.22",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@dbos-inc/dbos-sdk": "^2.10.22",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "@sentry/node": "^9.20.0",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.4",
+    "@types/module-alias": "^2.0.4",
+    "dotenv": "^16.5.0",
+    "module-alias": "^2.2.3",
+    "openai": "^4.100.0",
+    "puppeteer": "^24.8.2",
+    "supabase": "^2.22.12"
+  }
+}
